@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  color:hsl(241, 100%, 89%);
+
+}
+.form{
+  margin: 10% 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.up{
+  background:linear-gradient(hsl(252, 100%, 67%),hsl(234, 85%, 45%));
+  padding:2rem 5rem;
+  width:20%;
+  border-radius: 2rem;
+}
+
+.circle{
+  background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  padding: 1rem;
+  margin:0 1rem;
+}
+.seven{
+  color: white;
+  margin: 1rem 0.5rem;
+  margin:auto 20%;
+  padding: 1rem;
+}
+
+.down{
+  background-color:hsl(0, 0%, 100%) ;
+  width:20%;
+  padding:2rem 5rem;
+  border-radius: 2rem;
+  box-shadow:hsl(241, 100%, 89%) 0px 1px 10px;
+}
+
+.do-head{
+  color: hsl(234, 85%, 45%);
+  font-weight: 700;
+  font-size:28px;
+}
+.bot-head{
+  color: white;
+  font-size: 28px;
+  margin:auto 20%;
+  padding: 1rem;
+}
+.action{
+  padding: 0 0.5rem;
+}
+.neche{
+  color:hsl(0, 1%, 73%);
+  font-weight: 700;
+}
+.icon{
+  display: flex;
+  margin:0.5rem 0rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.scores{
+  color:hsl(224, 30%, 27%);
+}
+.icon-1{
+  color:hsl(0, 100%, 67%);
+background-color:hsl(0, 100%, 93%) ;
+}
+.icon-2{
+  color: hsl(39, 100%, 56%);  
+  background-color:hsl(40, 100%, 96%) ;
+}
+.icon-3{
+  color: hsl(166, 100%, 37%);
+  background-color:hsl(166, 100%, 93%) ;
+}
+.icon-4{
+  color: hsl(234, 85%, 45%);
+  background-color:hsl(235, 82%, 89%);
+}
+.btn{
+  width:90%;
+  padding: 0.5rem 1rem;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 3rem;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background:linear-gradient(hsl(252, 100%, 67%),hsl(234, 85%, 45%));
+}
+
+
+
+
+Colors
+Primary
+Light red: hsl(0, 100%, 67%)
+Orangey yellow: hsl(39, 100%, 56%)
+Green teal: hsl(166, 100%, 37%)
+Cobalt blue: hsl(234, 85%, 45%)
+Gradients
+Light slate blue (background): hsl(252, 100%, 67%)
+
+Light royal blue (background): hsl(241, 81%, 54%)
+
+Violet blue (circle): hsla(256, 72%, 46%, 1)
+
+Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+Neutral
+White: hsl(0, 0%, 100%)
+Pale blue: hsl(221, 100%, 96%)
+Light lavender: hsl(241, 100%, 89%)
+Dark gray blue: hsl(224, 30%, 27%)
+Notes
